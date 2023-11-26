@@ -1,5 +1,6 @@
 # US-Road-Map
 
+## STEP 1:
 ```
 SELECT
     ROUND(Lat, 3) AS Lat,
