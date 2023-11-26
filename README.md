@@ -18,7 +18,7 @@
 1. Run [query.sql](query.sql) code to sumarize the data to find frequency and average speed of each partion
 1. Run [create_map.py](create_map.py) code to create maps
 
-This is the first line.<br><br><br><br><br><br>This is the second line.
+<br><br><br><br><br><br>
 
 
 
