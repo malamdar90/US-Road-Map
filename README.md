@@ -1,10 +1,9 @@
 # US-Road-Map
 
 - STEP 1: Run query.sql code to sumarize the data to find frequency and avergae speed of each partion
-- STEP 2: Run python code to create maps
+- STEP 2: Run create_map.py code to create maps
 
-
-### Sample of the output maps: 
+Some of the output maps: 
 
 States of DC, MD, PA, NY, and MA:
 
