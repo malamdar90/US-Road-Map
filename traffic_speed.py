@@ -1,54 +1,56 @@
 from PIL import Image
 import csv
 
-# Set Constants
-center = (36.0, -118.5)
-lat_range = 5
-lng_range = 5
+# Constants
+c = (36.0, -118.5)
+lat_rng = 5
+lng_rng = 5
 
-color_high_speed = (60, 140, 60)
-color_med_speed = (250, 170, 70)
-color_low_speed = (200, 50, 40)
-background = (0, 0, 0)
+# Colors
+c_high = (60, 140, 60)
+c_med = (250, 170, 70)
+c_low = (200, 50, 40)
+bg = (0, 0, 0)
 
-highspeed_lw = 60
-medspeed_lw = 45
-lowspeed_lw = 20
+# Speed Lower Bounds in mph
+high_lb = 60
+med_lb = 45
+low_lb = 20
 
 # Read CSV File
-csv_file_path = '/averag.csv'
-with open(csv_file_path, 'r') as csvfile:
-    spamreader = csv.reader(csvfile, delimiter=',')
-    lines = [line for line in spamreader]
+csv_path = '/averag.csv'
+with open(csv_path, 'r') as csv_file:
+    csv_reader = csv.reader(csv_file, delimiter=',')
+    data_lines = [line for line in csv_reader]
 
-# Set Plot Limits
-ylim = (center[0] - lat_range, center[0] + lat_range)
-xlim = (center[1] - lng_range, center[1] + lng_range)
+# Plot Limits
+lat_int = (c[0] - lat_rng, c[0] + lat_rng)
+lng_int = (c[1] - lng_rng, c[1] + lng_rng)
 
 # Calculate Plot Dimensions
-plot_h = int(round(1000 * (ylim[1] - ylim[0]), 0) + 1)
-plot_w = int(round(1000 * (xlim[1] - xlim[0]), 0) + 1)
+h = int(round(1000 * (lat_int[1] - lat_int[0]), 0) + 1)
+w = int(round(1000 * (lng_int[1] - lng_int[0]), 0) + 1)
 
 # Create Image
-im = Image.new("RGB", (plot_w, plot_h), background)
-pix = im.load()
+img = Image.new("RGB", (w, h), bg)
+pix = img.load()
 
 # Plot Points on Image
-for i in range(len(lines)):
-    lat = float(lines[i][0])
-    lng = float(lines[i][1])
-    speed = float(lines[i][3])
+for i in range(len(data_lines)):
+    lat = float(data_lines[i][0])
+    lng = float(data_lines[i][1])
+    spd = float(data_lines[i][3])
 
-    if xlim[0] < lng < xlim[1] and ylim[0] < lat < ylim[1]:
-        x = int(round(1000 * (lng - xlim[0]), 0))
-        y = int(round(1000 * (ylim[1] - lat), 0))
+    if lng_int[0] < lng < lng_int[1] and lat_int[0] < lat < lat_int[1]:
+        x = int(round(1000 * (lng - lng_int[0]), 0))
+        y = int(round(1000 * (lat_int[1] - lat), 0))
 
-        if speed > highspeed_lw:
-            pix[x, y] = color_high_speed
-        elif medspeed_lw < speed:
-            pix[x, y] = color_med_speed
-        elif lowspeed_lw < speed:
-            pix[x, y] = color_low_speed
+        if spd > high_lb:
+            pix[x, y] = c_high
+        elif med_lb < spd:
+            pix[x, y] = c_med
+        elif low_lb < spd:
+            pix[x, y] = c_low
 
 # Save Image
-im.save("C:/Users/malamda1/Desktop/socal.png", "PNG")
+img.save("/socal.png", "PNG")
