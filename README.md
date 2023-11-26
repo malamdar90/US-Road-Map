@@ -32,9 +32,10 @@ The maps below were generated based on a dataset with:
 
 ### Steps to Generate US Road Maps:
 
-- **Step 1:** Run [query.sql](query.sql) code to summarize the data and find the frequency and average speed of each partition.
+**Step 1:** Run [query.sql](query.sql) code to summarize the data and find the frequency and average speed of each partition.
   - Summarized ~1.5 billion records to ~11.2 million records.
-- **Step 2:** Run [create_map.py](create_map.py) code to generate maps.
+    
+**Step 2:** Run [create_map.py](create_map.py) code to generate maps.
   - Used ~11.2 million records to create maps.
 
 <br>
