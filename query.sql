@@ -8,5 +8,5 @@ FROM
 GROUP BY
     ROUND(Lat, 3),
     ROUND(Lng, 3)
-INTO OUTFILE '/Average_speed.csv'
+INTO OUTFILE '/average_speed.csv'
 FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n';
