@@ -6,9 +6,9 @@ center = (36.0, -118.5)
 lat_range = 5
 lng_range = 5
 
-color_high_speed = (63, 141, 66)
-color_med_speed = (252, 169, 73)
-color_low_speed = (198, 51, 41)
+color_high_speed = (60, 140, 60)
+color_med_speed = (250, 170, 70)
+color_low_speed = (200, 50, 40)
 background = (0, 0, 0)
 
 # Read CSV File
