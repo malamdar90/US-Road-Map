@@ -1,7 +1,7 @@
 # US-Road-Map
 
-- STEP 1: Run query.sql code to sumarize the data to find frequency and avergae speed of each partion
-- STEP 2: Run create_map.py code to create maps
+1. Run query.sql code to sumarize the data to find frequency and avergae speed of each partion
+1. Run create_map.py code to create maps
 
 Some of the output maps: 
 
