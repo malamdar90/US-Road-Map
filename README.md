@@ -1,5 +1,7 @@
 # US-Road-Map
 
+<br>
+
 ## Sample GPS Trajectory:
 
 | Vehicle ID | Datetime            | Latitude       | Longitude       | Speed |
@@ -10,10 +12,14 @@
 |   100952   | 2023-01-01 20:30:45 | 30.987654      | -76.543210      |  25   |
 |   136279   | 2023-01-01 22:55:12 | 37.654321      | -88.765432      |  45   |
 
+<br>
+
 ## Steps to Generate US Road Maps:
 
 - **Step 1:** Run [query.sql](query.sql) code to summarize the data and find the frequency and average speed of each partition.
 - **Step 2:** Run [create_map.py](create_map.py) code to generate maps.
+
+<br>
 
 ## About the Dataset
 
@@ -24,10 +30,14 @@ The maps below were generated based on a dataset with:
 - **Data Duration:** ~3 years
 - **Data Frequency:** Datetime collected on average every 15 minutes
 
+<br>
+
 ### Data Processing Steps:
 
 - **Step 1:** Summarized ~1.5 billion records to ~11.2 million records.
 - **Step 2:** Used ~11.2 million records to create maps.
+
+<br>
 
 ## Some of the Output Maps:
 - **States of DC, MD, PA, NY, and MA:**
