@@ -35,11 +35,13 @@ The maps below were generated based on **~ 1.5 billion** records of data.
 
 ![DC_MD_PA_NY_MA](https://github.com/malamdar90/US-Road-Map/assets/87002822/0c4ea967-4c5e-471f-aa00-3b5ed2223525)
 
+<br>
 
 - **South California:**
 
 ![socal](https://github.com/malamdar90/US-Road-Map/assets/87002822/1056a0f2-24d7-49a2-8760-fd5ad8e652be)
 
+<br>
 
 - **State of Florida:**
 
