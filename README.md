@@ -4,7 +4,17 @@ Welcome to the US-Road-Map repository! This project takes you on a detailed expl
 
 <br>
 
-### Sample GPS Trajectory:
+
+### About the Dataset
+
+The maps below were generated based on a dataset with:
+
+- **Observations:** ~1.5 billions
+- **Vehicles:** ~10 thousands
+- **Data Duration:** ~3 years
+- **Data Frequency:** Datetime collected on average every 15 minutes
+  
+#### Sample GPS Trajectory:
 
 | Vehicle ID | Datetime            | Latitude       | Longitude       | Speed |
 |------------|---------------------|----------------|-----------------|-------|
@@ -21,26 +31,11 @@ Welcome to the US-Road-Map repository! This project takes you on a detailed expl
 - **Step 1:** Run [query.sql](query.sql) code to summarize the data and find the frequency and average speed of each partition.
   - Summarized ~1.5 billion records to ~11.2 million records.
 - **Step 2:** Run [create_map.py](create_map.py) code to generate maps.
-  -Used ~11.2 million records to create maps.
+  - Used ~11.2 million records to create maps.
 
 <br>
 
-### About the Dataset
 
-The maps below were generated based on a dataset with:
-
-- **Observations:** ~1.5 billions
-- **Vehicles:** ~10 thousands
-- **Data Duration:** ~3 years
-- **Data Frequency:** Datetime collected on average every 15 minutes
-
-<br>
-<br>
-
-- **Step 1:** 
-- **Step 2:** 
-
-<br>
 
 ### Some of the Output Maps:
 - States of DC, MD, PA, NY, and MA:
