@@ -13,7 +13,7 @@
 |   100952   | 2023-01-01 20:30:45 | 30.987654      | -76.543210      |  25   |
 |   136279   | 2023-01-01 22:55:12 | 37.654321      | -88.765432      |  45   |
 
-<br><br>
+<br>
 ### STEPS to generate US Road Maps:
 1. Run [query.sql](query.sql) code to sumarize the data to find frequency and average speed of each partion
 1. Run [create_map.py](create_map.py) code to create maps
@@ -25,7 +25,7 @@ The maps below were generated based on ~ 1.5 billion records of data.
 - STEP 1: Summarized **~1.5 billion** records to ~11 million records
 - STEP 2: Created map based on the **~11 million** records 
 
-<br><br>
+<br>
 
 ### Some of the output maps:
 
