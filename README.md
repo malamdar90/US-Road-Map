@@ -20,7 +20,6 @@
 
 
 
-### Some of the output maps:
 
 The maps below were generated based on ~ 1.5 billion records of data.
 
@@ -29,6 +28,7 @@ STEP 1: Summarized ~1.5 billion records to ~11 million records
 STEP 2: Created map based on the ~11 million records 
 
 
+### Some of the output maps:
 
 - **States of DC, MD, PA, NY, and MA:**
 
