@@ -15,7 +15,7 @@ bg = (0, 0, 0)
 high_lb, med_lb, low_lb = 60, 45, 20
 
 # Read CSV File
-csv_path = '/averag.csv'
+csv_path = '/averag_speed.csv'
 with open(csv_path, 'r') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')
     data = [line for line in csv_reader]
