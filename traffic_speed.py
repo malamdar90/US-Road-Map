@@ -3,8 +3,7 @@ import csv
 
 # Constants
 c = (36.0, -118.5)
-lat_margin = 5
-lng_margin = 5
+margin = (5, 5)
 
 # Colors
 c_high = (60, 140, 60)
@@ -13,9 +12,7 @@ c_low = (200, 50, 40)
 bg = (0, 0, 0)
 
 # Speed Lower Bounds in mph
-high_lb = 60
-med_lb = 45
-low_lb = 20
+high_lb, med_lb, low_lb = 60, 45, 20
 
 # Read CSV File
 csv_path = '/averag.csv'
@@ -24,8 +21,8 @@ with open(csv_path, 'r') as csv_file:
     data = [line for line in csv_reader]
 
 # Lat/long Intervals
-lat_int = (c[0] - lat_margin, c[0] + lat_margin)
-lng_int = (c[1] - lng_margin, c[1] + lng_margin)
+lat_int = (c[0] - margin[0], c[0] + margin[0])
+lng_int = (c[1] - margin[1], c[1] + margin[1])
 
 # Calculate Plot Dimensions
 h = int(round(1000 * (lat_int[1] - lat_int[0]), 0) + 1)
@@ -45,12 +42,8 @@ for i in range(len(data)):
         x = int(round(1000 * (lng - lng_int[0]), 0))
         y = int(round(1000 * (lat_int[1] - lat), 0))
 
-        if spd > high_lb:
-            pix[x, y] = c_high
-        elif med_lb < spd:
-            pix[x, y] = c_med
-        elif low_lb < spd:
-            pix[x, y] = c_low
+    pix[x, y] = c_high if spd > high_lb else (c_med if med_lb < spd else c_low)
+
 
 # Save Image
 img.save("/socal.png", "PNG")
