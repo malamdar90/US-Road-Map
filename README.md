@@ -2,7 +2,7 @@
 
 <br>
 
-## Sample GPS Trajectory:
+### Sample GPS Trajectory:
 
 | Vehicle ID | Datetime            | Latitude       | Longitude       | Speed |
 |------------|---------------------|----------------|-----------------|-------|
@@ -14,14 +14,14 @@
 
 <br>
 
-## Steps to Generate US Road Maps:
+### Steps to Generate US Road Maps:
 
 - **Step 1:** Run [query.sql](query.sql) code to summarize the data and find the frequency and average speed of each partition.
 - **Step 2:** Run [create_map.py](create_map.py) code to generate maps.
 
 <br>
 
-## About the Dataset
+### About the Dataset
 
 The maps below were generated based on a dataset with:
 
@@ -39,7 +39,7 @@ The maps below were generated based on a dataset with:
 
 <br>
 
-## Some of the Output Maps:
+### Some of the Output Maps:
 - **States of DC, MD, PA, NY, and MA:**
 
 <br>
