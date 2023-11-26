@@ -26,6 +26,8 @@ The maps below were generated based on a dataset with
 - ~3 years of data
 - Datetime collected on average every 15 minutes
 
+<br>
+
 **Step 1:** Summarized ~1.5 billion records to ~11.2 million records.
 
 **Step 2:** Used ~11.2 million records to create maps
