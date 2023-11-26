@@ -1,9 +1,6 @@
 # US-Road-Map
 
-
-
-### Sample GPS Trajectory:
-
+## Sample GPS Trajectory:
 
 | Vehicle ID | Datetime            | Latitude       | Longitude       | Speed |
 |------------|---------------------|----------------|-----------------|-------|
@@ -15,21 +12,21 @@
 
 <br>
 
-### STEPS to generate US Road Maps:
+## Steps to Generate US Road Maps:
 
-1. Run [query.sql](query.sql) code to sumarize the data to find frequency and average speed of each partion
-1. Run [create_map.py](create_map.py) code to create maps
-
-<br>
-
-The maps below were generated based on **~1.5 billion** records of data.
-
-- STEP 1: Summarized ~1.5 billion records to ~11 million records
-- STEP 2: Creates map based on the ~11 million records 
+1. Run [query.sql](query.sql) code to summarize the data and find the frequency and average speed of each partition.
+2. Run [create_map.py](create_map.py) code to generate maps.
 
 <br>
 
-### Some of the output maps:
+The maps below were generated based on **~1.5 billion** records of data:
+
+- **Step 1:** Summarized ~1.5 billion records to ~11 million records.
+- **Step 2:** Created maps based on the ~11 million records.
+
+<br>
+
+## Some of the Output Maps:
 
 - **States of DC, MD, PA, NY, and MA:**
 
@@ -37,19 +34,12 @@ The maps below were generated based on **~1.5 billion** records of data.
 
 <br>
 
-- **South California:**
+- **Southern California:**
 
-![socal](https://github.com/malamdar90/US-Road-Map/assets/87002822/1056a0f2-24d7-49a2-8760-fd5ad8e652be)
+![SoCal](https://github.com/malamdar90/US-Road-Map/assets/87002822/1056a0f2-24d7-49a2-8760-fd5ad8e652be)
 
 <br>
 
 - **State of Florida:**
 
 ![FL](https://github.com/malamdar90/US-Road-Map/assets/87002822/fb86c3a8-a919-4169-a69f-41eadf8da944)
-
-
-
-
-
-
-
