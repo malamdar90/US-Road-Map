@@ -14,7 +14,8 @@ The maps below were generated based on a dataset with:
 - **Data Duration:** ~3 years
 - **Data Frequency:** Datetime collected on average every 15 minutes
   
-#### Sample GPS Trajectory:
+
+Sample GPS Trajectory:
 
 | Vehicle ID | Datetime            | Latitude       | Longitude       | Speed |
 |------------|---------------------|----------------|-----------------|-------|
