@@ -1,6 +1,6 @@
 # US-Road-Map
 
-1. Run [query.sql](https://github.com/malamdar90/US-Road-Map/blob/main/query.sql)  code to sumarize the data to find frequency and avergae speed of each partion
+1. Run [query.sql](query.sql) code to sumarize the data to find frequency and avergae speed of each partion
 1. Run create_map.py code to create maps
 
 Some of the output maps: 
