@@ -23,7 +23,7 @@ with open(csv_path, 'r') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')
     data_lines = [line for line in csv_reader]
 
-# Plot Limits
+# Lat/long Intervals
 lat_int = (c[0] - lat_margin, c[0] + lat_margin)
 lng_int = (c[1] - lng_margin, c[1] + lng_margin)
 
