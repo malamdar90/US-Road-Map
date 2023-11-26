@@ -17,13 +17,15 @@ Welcome to the US-Road-Map repository! This project takes you on a detailed expl
 |   100952   | 2023-01-01 20:30:45 | 30.987654      | -76.543210      |  25   |
 |   136279   | 2023-01-01 22:55:12 | 37.654321      | -88.765432      |  45   |
 
+<br>
+
 The maps below were generated based on a dataset with:
 
 - **Observations:** ~1.5 billions
 - **Vehicles:** ~10 thousands
 - **Data Duration:** ~3 years
 - **Data Frequency:** Datetime collected on average every 15 minutes
-- 
+  
 <br>
 
 ### Steps to Generate US Road Maps:
@@ -34,7 +36,6 @@ The maps below were generated based on a dataset with:
   - Used ~11.2 million records to create maps.
 
 <br>
-
 
 
 ### Some of the Output Maps:
