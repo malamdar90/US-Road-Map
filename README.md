@@ -1,22 +1,10 @@
 # US-Road-Map
 
-## STEP 1:
-```
-SELECT
-    ROUND(Lat, 3) AS Lat,
-    ROUND(Lng, 3) AS Lng,
-    COUNT(*) AS Freq,
-    AVG(speed) AS Speed
-FROM
-    gps_data
-GROUP BY
-    ROUND(Lat, 3),
-    ROUND(Lng, 3)
-INTO OUTFILE '/Average_speed.csv'
-FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n';
-```
+- STEP 1: Run SQL code to sumarize the data to find frequency and avergae speed of each partion
+- STEP 2: Run python code to create maps
 
-### Sample of the outputs: 
+
+### Sample of the output maps: 
 
 States of DC, MD, PA, NY, and MA:
 
