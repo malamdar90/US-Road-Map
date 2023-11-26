@@ -3,7 +3,8 @@
 1. Run [query.sql](query.sql) code to sumarize the data to find frequency and avergae speed of each partion
 1. Run [create_map.py](create_map.py) code to create maps
 
-Some of the output maps: 
+
+** Some of the output maps: **
 
 States of DC, MD, PA, NY, and MA:
 
