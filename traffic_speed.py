@@ -2,10 +2,9 @@ from PIL import Image
 import csv
 
 # Set Constants
-center = (36.209, -118.646)
-h = 0.6
-w = 0.6
-zoom = 8
+center = (36.0, -118.5)
+lat_range = 5
+lng_range = 5
 
 color1 = (63, 141, 66)
 color2 = (252, 169, 73)
@@ -19,8 +18,8 @@ with open(csv_file_path, 'r') as csvfile:
     lines = [line for line in spamreader]
 
 # Set Plot Limits
-ylim = (center[0] - zoom * h, center[0] + zoom * h)
-xlim = (center[1] - zoom * w, center[1] + zoom * w)
+ylim = (center[0] - lat_range, center[0] + lat_range)
+xlim = (center[1] - lng_range, center[1] + lng_range)
 
 # Calculate Plot Dimensions
 plot_h = int(round(1000 * (ylim[1] - ylim[0]), 0) + 1)
