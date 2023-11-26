@@ -42,7 +42,7 @@ for i in range(len(data)):
         x = int(round(1000 * (lng - lng_int[0]), 0))
         y = int(round(1000 * (lat_int[1] - lat), 0))
 
-    pix[x, y] = c_high if spd > high_lb else (c_med if med_lb < spd else c_low)
+        pix[x, y] = c_high if spd > high_lb else (c_med if med_lb < spd else c_low)
 
 
 # Save Image
