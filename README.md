@@ -25,8 +25,8 @@
 
 The maps below were generated based on a dataset with:
 
-- **Observations:** ~1.5 billion
-- **Vehicles:** ~10 thousand
+- **Observations:** ~1.5 billions
+- **Vehicles:** ~10 thousands
 - **Data Duration:** ~3 years
 - **Data Frequency:** Datetime collected on average every 15 minutes
 
