@@ -31,13 +31,14 @@ The maps below were generated based on a dataset with:
 
 ## Some of the Output Maps:
 
+- **New York City:**
+  
+  ![NYC](https://github.com/malamdar90/US-Road-Map/assets/87002822/aa48cabc-6e62-48c4-a3b3-662811c6bdb5)
+
 - **States of DC, MD, PA, NY, and MA:**
   
   ![DC_MD_PA_NY_MA](https://github.com/malamdar90/US-Road-Map/assets/87002822/0c4ea967-4c5e-471f-aa00-3b5ed2223525)
 
-- **New York City:**
-  
-  ![NYC](https://github.com/malamdar90/US-Road-Map/assets/87002822/aa48cabc-6e62-48c4-a3b3-662811c6bdb5)
 
 - **Southern California:**
   
