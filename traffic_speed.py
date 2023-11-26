@@ -11,6 +11,10 @@ color_med_speed = (250, 170, 70)
 color_low_speed = (200, 50, 40)
 background = (0, 0, 0)
 
+highspeed_lw = 60
+medspeed_lw = 45
+lowspeed_lw = 20
+
 # Read CSV File
 csv_file_path = '/averag.csv'
 with open(csv_file_path, 'r') as csvfile:
@@ -39,11 +43,11 @@ for i in range(len(lines)):
         x = int(round(1000 * (lng - xlim[0]), 0))
         y = int(round(1000 * (ylim[1] - lat), 0))
 
-        if speed > 60:
+        if speed > highspeed_lw:
             pix[x, y] = color_high_speed
-        elif 45 < speed:
+        elif medspeed_lw < speed:
             pix[x, y] = color_med_speed
-        elif 20 < speed:
+        elif lowspeed_lw < speed:
             pix[x, y] = color_low_speed
 
 # Save Image
