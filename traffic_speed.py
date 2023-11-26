@@ -13,7 +13,7 @@ color3 = (198, 51, 41)
 background = (0, 0, 0)
 
 # Read CSV File
-csv_file_path = 'C:/Users/malamda1/Desktop/latlonspeedcount_stats1.csv'
+csv_file_path = '/averag.csv'
 with open(csv_file_path, 'r') as csvfile:
     spamreader = csv.reader(csvfile, delimiter=',')
     lines = [line for line in spamreader]
