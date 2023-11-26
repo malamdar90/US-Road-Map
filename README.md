@@ -26,9 +26,7 @@ STEP 1: Summarized ~1.5 billion records to ~11 million records
 
 STEP 2: Created map based on the ~11 million records 
 
-
 <br><br>
-
 
 ### Some of the output maps:
 
