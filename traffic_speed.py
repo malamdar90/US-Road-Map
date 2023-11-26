@@ -34,7 +34,7 @@ pix = im.load()
 for i in range(len(lines)):
     lat = float(lines[i][0])
     lng = float(lines[i][1])
-    speed = float(lines[i][4])
+    speed = float(lines[i][3])
 
     if xlim[0] < lng < xlim[1] and ylim[0] < lat < ylim[1]:
         x = int(round(1000 * (lng - xlim[0]), 0))
