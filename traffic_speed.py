@@ -47,4 +47,4 @@ for i in range(len(lines)):
             pix[x, y] = color_low_speed
 
 # Save Image
-im.save("C:/Users/malamda1/Desktop/LA.png", "PNG")
+im.save("C:/Users/malamda1/Desktop/socal.png", "PNG")
