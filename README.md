@@ -32,7 +32,7 @@ The maps below were generated based on a dataset with:
 
 <br>
 
-### Data Processing Steps:
+#### Data Processing Steps:
 
 - **Step 1:** Summarized ~1.5 billion records to ~11.2 million records.
 - **Step 2:** Used ~11.2 million records to create maps.
