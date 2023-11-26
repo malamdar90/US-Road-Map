@@ -4,7 +4,7 @@
 1. Run [create_map.py](create_map.py) code to create maps
 
 
-** Some of the output maps: **
+**Some of the output maps:**
 
 States of DC, MD, PA, NY, and MA:
 
