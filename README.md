@@ -2,7 +2,7 @@
 
 
 
-Sample GPS Trajectory:
+### Sample GPS Trajectory:
 
 
 | Vehicle ID | Datetime            | Latitude       | Longitude       | Speed |
@@ -14,6 +14,7 @@ Sample GPS Trajectory:
 |   136279   | 2023-01-01 22:55:12 | 37.654321      | -88.765432      |  45   |
 
 
+### Some of the output maps:
 1. Run [query.sql](query.sql) code to sumarize the data to find frequency and avergae speed of each partion
 1. Run [create_map.py](create_map.py) code to create maps
 
