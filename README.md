@@ -19,7 +19,7 @@
 
 <br>
 
-## About the dataset
+## About the Dataset
 The maps below were generated based on a dataset with 
 - ~1.5 billion observations
 - ~10 thousand vehicles
