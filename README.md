@@ -21,8 +21,8 @@
 
 The maps below were generated based on **~1.5 billion** records of data:
 
-- **Step 1:** Summarized ~1.5 billion records to ~11 million records.
-- **Step 2:** Created maps based on the ~11 million records.
+- **Step 1:** Summarized ~1.5 billion records to ~11.2 million records.
+- **Step 2:** Created maps based on the ~11.2 million records.
 
 <br>
 
