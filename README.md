@@ -12,8 +12,8 @@
 
 ## Steps to Generate US Road Maps:
 
-1. Run [query.sql](query.sql) code to summarize the data and find the frequency and average speed of each partition.
-2. Run [create_map.py](create_map.py) code to generate maps.
+- **Step 1:** Run [query.sql](query.sql) code to summarize the data and find the frequency and average speed of each partition.
+- **Step 2:** Run [create_map.py](create_map.py) code to generate maps.
 
 ## About the Dataset
 
@@ -26,8 +26,8 @@ The maps below were generated based on a dataset with:
 
 ### Data Processing Steps:
 
-1. **Step 1:** Summarized ~1.5 billion records to ~11.2 million records.
-2. **Step 2:** Used ~11.2 million records to create maps.
+- **Step 1:** Summarized ~1.5 billion records to ~11.2 million records.
+- **Step 2:** Used ~11.2 million records to create maps.
 
 ## Some of the Output Maps:
 - **States of DC, MD, PA, NY, and MA:**
