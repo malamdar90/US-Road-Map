@@ -7,6 +7,8 @@ Welcome to the US-Road-Map repository! This project takes you on a detailed expl
 
 ### About the Dataset
 
+<br>
+
 **Sample GPS Trajectory:**
 
 | Vehicle ID | Datetime            | Latitude       | Longitude       | Speed |
