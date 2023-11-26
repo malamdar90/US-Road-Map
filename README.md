@@ -33,8 +33,7 @@ The maps below were generated based on a dataset with:
 - **Data Frequency:** Datetime collected on average every 15 minutes
 
 <br>
-
-#### Data Processing Steps:
+<br>
 
 - **Step 1:** Summarized ~1.5 billion records to ~11.2 million records.
 - **Step 2:** Used ~11.2 million records to create maps.
