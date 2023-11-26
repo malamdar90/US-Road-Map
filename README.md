@@ -15,6 +15,7 @@
 
 <br>
 ### STEPS to generate US Road Maps:
+
 1. Run [query.sql](query.sql) code to sumarize the data to find frequency and average speed of each partion
 1. Run [create_map.py](create_map.py) code to create maps
 
