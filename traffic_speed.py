@@ -21,7 +21,7 @@ low_lb = 20
 csv_path = '/averag.csv'
 with open(csv_path, 'r') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')
-    data_lines = [line for line in csv_reader]
+    data = [line for line in csv_reader]
 
 # Lat/long Intervals
 lat_int = (c[0] - lat_margin, c[0] + lat_margin)
@@ -36,10 +36,10 @@ img = Image.new("RGB", (w, h), bg)
 pix = img.load()
 
 # Plot Points on Image
-for i in range(len(data_lines)):
-    lat = float(data_lines[i][0])
-    lng = float(data_lines[i][1])
-    spd = float(data_lines[i][3])
+for i in range(len(data)):
+    lat = float(data[i][0])
+    lng = float(data[i][1])
+    spd = float(data[i][3])
 
     if lng_int[0] < lng < lng_int[1] and lat_int[0] < lat < lat_int[1]:
         x = int(round(1000 * (lng - lng_int[0]), 0))
