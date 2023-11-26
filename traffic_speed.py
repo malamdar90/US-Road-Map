@@ -6,9 +6,9 @@ center = (36.0, -118.5)
 lat_range = 5
 lng_range = 5
 
-color1 = (63, 141, 66)
-color2 = (252, 169, 73)
-color3 = (198, 51, 41)
+color_High_speed = (63, 141, 66)
+color_Med_speed = (252, 169, 73)
+color_Low_speed = (198, 51, 41)
 background = (0, 0, 0)
 
 # Read CSV File
@@ -40,11 +40,11 @@ for i in range(len(lines)):
         y = int(round(1000 * (ylim[1] - lat), 0))
 
         if speed > 60:
-            pix[x, y] = color1
+            pix[x, y] = color_High_speed
         elif 45 < speed:
-            pix[x, y] = color2
+            pix[x, y] = color_Med_speed
         elif 20 < speed:
-            pix[x, y] = color3
+            pix[x, y] = color_Low_speed
 
 # Save Image
 im.save("C:/Users/malamda1/Desktop/LA.png", "PNG")
