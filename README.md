@@ -2,6 +2,7 @@
 
 Welcome to the US-Road-Map repository! This project takes you on a detailed exploration of how raw GPS trajectory data was leveraged to craft a comprehensive traffic map of the entire United States. The provided steps guide you through the process of generating these maps using the included SQL and Python scripts. Our dataset is robust, comprising around 1.5 billion observations collected over three years from approximately 10 thousand vehicles, with data recorded at 15-minute intervals. Immerse yourself in the resulting maps that vividly visualize the summarized data, showcasing specific states and regions.
 
+<br>
 
 ### Sample GPS Trajectory:
 
