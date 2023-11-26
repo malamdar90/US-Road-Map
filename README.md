@@ -20,8 +20,6 @@
 
 <br><br><br><br><br><br>
 
-
-
 The maps below were generated based on ~ 1.5 billion records of data.
 
 STEP 1: Summarized ~1.5 billion records to ~11 million records
