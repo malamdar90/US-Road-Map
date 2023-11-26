@@ -3,8 +3,8 @@ import csv
 
 # Constants
 c = (36.0, -118.5)
-lat_rng = 5
-lng_rng = 5
+lat_margin = 5
+lng_margin = 5
 
 # Colors
 c_high = (60, 140, 60)
@@ -24,8 +24,8 @@ with open(csv_path, 'r') as csv_file:
     data_lines = [line for line in csv_reader]
 
 # Plot Limits
-lat_int = (c[0] - lat_rng, c[0] + lat_rng)
-lng_int = (c[1] - lng_rng, c[1] + lng_rng)
+lat_int = (c[0] - lat_margin, c[0] + lat_margin)
+lng_int = (c[1] - lng_margin, c[1] + lng_margin)
 
 # Calculate Plot Dimensions
 h = int(round(1000 * (lat_int[1] - lat_int[0]), 0) + 1)
