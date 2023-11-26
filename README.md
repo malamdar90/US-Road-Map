@@ -21,10 +21,10 @@
 
 ## About the dataset
 The maps below were generated based on a dataset with 
-- **~1.5 billion** observations
-- **~10 thousand vehicles**
-- **~3 years of data**
-- **Datetime collected on average every 15 minutes**
+- ~1.5 billion observations
+- ~10 thousand vehicles
+- ~3 years of data
+- Datetime collected on average every 15 minutes
 
 **Step 1:** Summarized ~1.5 billion records to ~11.2 million records.
 
